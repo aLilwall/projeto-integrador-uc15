@@ -246,7 +246,7 @@ header {
   box-sizing: border-box;
 }
 
-.header-left {
+/* .header-left {
   display: flex;
   align-items: flex-end;
   gap: 20px;
@@ -262,14 +262,24 @@ header {
 .logo {
   width: 104px;
   height: 104px;
-}
+} */
 
 header nav {
   display: flex;
-  align-items: flex-end;
-  flex: 1;
-  justify-content: center;
-  margin-left: 40px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: var(--standard-width);
+  padding: 0 var(--spacing-md);
+  margin: 0 0 var(--spacing-xl) 0;
+  box-sizing: border-box;
+  padding: 0 400px;
+}
+
+header nav a img {
+  width: 104px;
+  height: 104px;
+  margin-right: ;
 }
 
 header nav ul {

@@ -28,21 +28,26 @@ header {
   padding: 0 85px 20px 85px;
   box-sizing: border-box;
 }
-
+/* 
 .header-left {
   display: flex;
   align-items: flex-end;
   gap: 20px;
-}
-
+} */
+/* 
 .menu-icon {
   width: 57px;
   height: 39px;
   cursor: pointer;
   margin-bottom: 8px;
-}
+} */
 
-.logo {
+/* .logo {
+  width: 104px;
+  height: 104px;
+} */
+
+header nav a img{
   width: 104px;
   height: 104px;
 }
