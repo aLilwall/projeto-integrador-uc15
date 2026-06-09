@@ -115,7 +115,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 90px;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
 }
 
 .titulo-classic-dog{
@@ -620,8 +620,7 @@ body {
   font-family: var(--title-family);
   font-size: var(--title-size);
   letter-spacing: 0.01px;
-  
-
+  display: flex;
 }
 
 .texto-paragrafo{
@@ -629,20 +628,21 @@ body {
   text-align: justify;
   font-family: var(--body-family);
   color:#daa547;
-  font-size: 30px;
+  font-size: 15px;
+  align-items: center;
+  
 }
-
 .texto-titulo{
   font-family: var(--title-family);
   font-size: var(--title-size);
   letter-spacing: 0.01px;
+  justify-content: center;
+  display: flex;
   color:#daa547
 }
-
+/* 
 .descricao-mapa{
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100%;
-}
+} */
