@@ -15,7 +15,6 @@
     --button-bg: #eb3223;
     --button-text: #daa547;
     --button-hover: #c72a1e;
-    --title-size: 48px;
     --title-family: "Sancreek", serif;
     --body-size: 16px;
     --body-family: "Faustina", serif;
@@ -24,4 +23,10 @@
     --input-bg: #ffffff;
     --shadow-soft: rgba(0, 0, 0, 0.18);
     --shadow-strong: rgba(0, 0, 0, 0.22);
+    --size-large: 16px;
+    --size-medium: 12px;
+    --size-small: 8px;
+    --title-large: 48px;
+    --title-medium: 40px;
+    --title-small: 32px;
 }

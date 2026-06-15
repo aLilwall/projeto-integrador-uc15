@@ -16,6 +16,7 @@
 } */
 
 header{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,8 +47,14 @@ header nav ul {
 }
 
 header nav ul li {
+  text-transform: capitalize;
   margin: 0;
   padding: 0;
+  transition: all 0.25s ease;
+}
+
+header nav ul li:hover {
+  font-weight: 700;
 }
 
 header nav ul li a{
@@ -85,10 +92,6 @@ header nav ul li a{
   line-height: 21px;
 }
 
-header nav ul li:hover {
-  font-weight: 700;
-}
-
 header nav ul li span {
   white-space: nowrap;
 }
@@ -99,4 +102,48 @@ header nav ul li span {
 
 .nav-ativo span {
   font-weight: 700;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+@media(max-width: 768px) {
+  header {
+    height: auto;
+    padding: 15px 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: auto;
+  }
+
+  .navbar {
+    margin: 16px 0;
+  }
+
+  .navbar .menu {
+    display: none;
+  }
+
+  .hamburger-button {
+    width: auto;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hamburger-button .bar {
+    width: 32px;
+    height: 4px;
+    background-color: #daa547;
+    margin: 2px 0;
+  }
+
+  /* TESTE */
+  .foto img{
+    width: 50%;
+  }
 }

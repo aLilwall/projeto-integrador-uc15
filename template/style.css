@@ -53,7 +53,7 @@ body {
 /* Slider----------------------*/
 .foto img{
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 /* ------------------------------ */
 
@@ -464,7 +464,7 @@ body {
 
 /* Responsive Styles */
 
-/* Tablets e telas médias */
+/* Tablets e telas médias 
 @media (max-width: 1024px) {
   header {
     padding: 0 40px 20px 40px;
@@ -481,126 +481,7 @@ body {
   .secondary-header {
     padding: 20px 40px;
   }
-}
-
-/* Celulares grandes */
-@media (max-width: 768px) {
-  header {
-    height: auto;
-    padding: 15px 20px;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .header-left {
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  header nav {
-    width: 100%;
-    margin-left: 0;
-  }
-  
-  header nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .nav-item {
-    font-size: 14px;
-  }
-  
-  .secondary-header {
-    padding: 15px 20px;
-  }
-  
-  .secondary-row {
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .secondary-item {
-    width: 100%;
-    font-size: 16px;
-  }
-  
-  .timeline-label {
-    font-size: 14px;
-  }
-}
-
-/* Celulares pequenos */
-@media (max-width: 480px) {
-  .logo {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .menu-icon {
-    width: 45px;
-    height: 30px;
-  }
-  
-  header nav ul {
-    gap: 10px;
-  }
-  
-  .nav-item {
-    font-size: 12px;
-    gap: 4px;
-  }
-  
-  .nav-icon {
-    width: 16px;
-    height: 16px;
-  }
-  
-  .secondary-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .secondary-item {
-    font-size: 14px;
-  }
-}
-
-/* Footer responsivo */
-@media (max-width: 720px) {
-  .site-footer {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 24px;
-  }
-  
-  .footer-content {
-    width: 100%;
-  }
-  
-  .footer-phone-card,
-  .footer-newsletter-card,
-  .footer-feedback-card {
-    width: 100%;
-  }
-  
-  .footer-right {
-    position: static;
-    transform: none;
-    width: 100%;
-    margin-top: 30px;
-  }
-  
-  .social-icons {
-    justify-content: center;
-  }
-  
-  .footer-badges {
-    justify-content: center;
-  }
-}
+}*/
 
 .teste{
   display: flex;
@@ -654,3 +535,20 @@ body {
   width: 100%;
   height: 100%;
 } */
+
+@media (max-width: 680px) {
+  .foto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sobre_nos {
+    margin: 0 auto;
+    width: 1024px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
