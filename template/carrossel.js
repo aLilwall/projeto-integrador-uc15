@@ -1,5 +1,5 @@
 function iniciarCarrossel() {
-    const imagens = document.querySelectorAll('.carrossel img');
+    const imagens = document.querySelectorAll('.foto img');
     let indice = 0;
 
     setInterval(() => {
@@ -7,7 +7,7 @@ function iniciarCarrossel() {
         indice = (indice + 1) % imagens.length;
         imagens[indice].classList.add('ativo');
 
-    }, 3000);
+    }, 5000);
 }
 
 window.onload = iniciarCarrossel;

@@ -1,26 +1,26 @@
 :root {
-    --bg-body: #ffedd2;
-    --text-main: #eb3223;
+    --bg-body: /*#F0D8C3;*/  #ffedd2; 
+    --text-main: #7A2A05;
     --text-contrast: #ffedd2;
-    --header-bg: #9b3531;
+    --header-bg:/* #9b3531;*/ #7A2A05 ;
     --header-text: #daa547;
-    --secondary-text: #eb3223;
-    --timeline-bg: #eb3223;
+    --secondary-text: #7A2A05;
+    --timeline-bg: #7A2A05;
     --timeline-progress: #e69248;
     --timeline-complete: #4caf50;
-    --footer-bg: #9b3531;
+    --footer-bg: #7A2A05;
     --footer-text: #daa547;
     --footer-card-bg: #daa547;
-    --footer-card-text: #9b3531;
-    --button-bg: #eb3223;
+    --footer-card-text: #7A2A05;
+    --button-bg: #7A2A05;
     --button-text: #daa547;
-    --button-hover: #c72a1e;
+    --button-hover: #7A2A05;
     --title-family: "Sancreek", serif;
     /* --body-size: 16px; */
     --body-family: "Faustina", serif;
-    --title-color: #232323;
-    --border-color: #232323;
-    --input-bg: #ffffff;
+    --title-color: #2c4251;
+    --border-color: #2c4251;
+    --input-bg: #ffedd2;
     --shadow-soft: rgba(0, 0, 0, 0.18);
     --shadow-strong: rgba(0, 0, 0, 0.22);
     --body-size-large: 24px;

@@ -151,7 +151,7 @@ body {
 .site-footer {
   position: relative;
   width: 100%;
-  background-color: #9b3531;
+  background-color: var(--footer-bg);
   padding: 36px 85px;
   box-sizing: border-box;
   display: flex;
@@ -184,7 +184,7 @@ body {
 
 .footer-card {
   background-color: #daa547;
-  color: #9b3531;
+  color: var(--footer-bg);
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -230,7 +230,7 @@ body {
   border: none;
   border-radius: 10px;
   background-color: #daa547;
-  color: #9b3531;
+  color: var(--footer-bg);
   font-family: "Faustina", serif;
   font-size: 18px;
   font-weight: 700;
