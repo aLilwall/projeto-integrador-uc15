@@ -159,6 +159,14 @@ body {
     white-space: nowrap;
 }
 
+.carrosel .imagem {
+    display: "none";
+}
+
+.carrosel .imagem .ativo {
+    display: block;
+}
+
 .tres {
     /* background-color: rgb(52, 215, 66); */    
     margin: auto;
