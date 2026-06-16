@@ -59,7 +59,7 @@ body {
 /* ------------------------------------- */
 
 /* Seção Dois ------------------------ */
-.secao_um {
+.carrosel {
     /* background-color: rgb(52, 215, 66); */
     margin-top: 10px;
     margin: auto;
@@ -70,7 +70,7 @@ body {
     margin-bottom: 20px;
 }
 
-.secao_um .filho1 img{
+.carrosel .imagem img{
     width: 390px;
     height: 374px;
     object-fit: cover;
@@ -78,13 +78,13 @@ body {
     transition: transform 0.3s ease;
 }
 
-.secao_um .filho1 img:hover {
+.carrosel .imagem img:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 
 /* Div filho 1 */
-.filho1{
+.imagem{
     /* border: 1px solid #000; */
     margin-top: 20px;
     display: flex;
