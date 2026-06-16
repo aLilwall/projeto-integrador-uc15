@@ -29,8 +29,8 @@ body {
     margin: 0 auto;    
     width: var(--standard-width);
     height: 600px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -190,18 +190,15 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 480) {
+@media (max-width: 768px) {
     /* Seção Um ------------------------- */
     /* Construção da seção "Sobre Nós" */
-    .sobre_nos{  
-        /* border:1px solid #D1CFCF; */
-        margin: 0 auto;    
-        width: var(--standard-width);
-        height: 600px;
-        display: flex;
-        flex-direction: row;
+    .sobre_nos{
+        height: 1100px;
+        flex-direction: column;
+        max-width: 700px;
         margin-top: 10px;
-        margin-bottom: 20px;
+        gap: 200px;
     }
     /* ------------------------------------- */
 }
