@@ -1,16 +1,66 @@
+@import "./variables.css";
 
 /* Footer Styles */
-.site-footer {
+footer {
   position: relative;
+  height: 300px;
   width: 100%;
   background-color: var(--footer-bg);
-  padding: 36px 85px;
   box-sizing: border-box;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 600px;
   margin-top: 10%;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin: 20px 10px 0 0;
+}
+
+footer .google-banner {
+  height: 40px;
+  width: auto;
+}
+
+.footer-submit {
+  width: 150px;
+  height: 44px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #daa547;
+  color: var(--footer-bg);
+  font-family: "Faustina", serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+  align-self: flex-start;
+}
+
+.footer-card {
+  background-color: #daa547;
+  color: var(--footer-bg);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.footer-submit:hover {
+  background-color: #e2b44c;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.22);
 }
 
 .footer-content {
@@ -43,96 +93,4 @@
   align-items: center;
   padding: 0 16px;
   box-sizing: border-box;
-}
-
-.footer-phone-card {
-  width: 340px;
-  height: 46px;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.footer-newsletter-card {
-  width: 360px;
-  height: 46px;
-  margin-bottom: 10px;
-}
-
-.footer-feedback-label {
-  margin-top: 0;
-}
-
-.footer-feedback-card {
-  width: 360px;
-  height: 60px;
-}
-
-.footer-feedback-input {
-  resize: none;
-  border: none;
-  outline: none;
-  font-family: inherit;
-  font-size: 18px;
-  padding-top: 10px;
-}
-
-.footer-submit {
-  width: 150px;
-  height: 44px;
-  margin-top: 8px;
-  border: none;
-  border-radius: 10px;
-  background-color: #daa547;
-  color: var(--footer-bg);
-  font-family: "Faustina", serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.3px;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background-color 0.2s ease;
-  align-self: flex-start;
-}
-
-.footer-submit:hover {
-  background-color: #e2b44c;
-  transform: translateY(-1px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.22);
-}
-
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.social-icons {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-}
-
-.footer-icon {
-  display: block;
-  width: 44px;
-  height: 44px;
-}
-
-.footer-badges {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-}
-
-.footer-badge {
-  display: block;
-  height: 64px;
 }
